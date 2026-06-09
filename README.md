@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project was developed as part of the Cloud Computing Laboratory course. The objective is to design, build, and deploy a simple static website using HTML, CSS, and JavaScript, while practicing collaborative development through GitHub and GitHub Pages.
+This project was developed as part of the Cloud Computing course. The objective is to design, build, and deploy a simple static website using HTML, and CSS, while practicing collaborative development through GitHub and GitHub Pages.
 
 The website demonstrates fundamental web development concepts, version control workflows, and cloud-based deployment.
 
@@ -98,7 +98,7 @@ Collaboration history can be tracked through the repository commit log.
 **Repository Name:** `cloud-lab-group-project`
 
 **GitHub Repository Link:**
-*Add repository URL here after creation.*
+* https://github.com/Oware-Ebenezer/cloud-lab-group-project.git *
 
 ## Course Information
 
