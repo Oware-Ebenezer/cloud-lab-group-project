@@ -7,7 +7,7 @@
   --text-main: #222222; /* Sleek Dark Charcoal */
   --text-muted: #555555; /* Muted Grey for descriptions */
   --accent-gold: #d4af37; /* Muted Soft Gold for active elements/hovers */
-  --accent-dark: #111111; /* Deep Jet Black for headers/footers */
+  --accent-dark: #ffffff; /* Deep Jet Black for headers/footers */
   --border-color: #eae5d9; /* Light ivory-tinted border */
 }
 
@@ -49,7 +49,8 @@ nav {
 }
 
 nav a {
-  color: var(--bg-primary);
+  /* Ensure nav text stays visible on dark header */
+  color: #000000;
   text-decoration: none;
   font-size: 0.95rem;
   font-weight: 500;
@@ -59,6 +60,7 @@ nav a {
   padding: 5px 0;
   position: relative;
 }
+
 
 /* Hover & Active States with Gold Accents */
 nav a:hover,
@@ -230,3 +232,87 @@ footer {
   color: var(--text-muted);
   letter-spacing: 0.5px;
 }
+
+/* ==========================================================================
+   8. RESPONSIVE ENHANCEMENTS
+   ========================================================================== */
+
+/* Tablet */
+@media (max-width: 900px) {
+  nav {
+    gap: 20px;
+    padding: 16px 12px;
+    flex-wrap: wrap;
+  }
+
+  main {
+    margin: 30px auto;
+    padding: 28px;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* Make list rows more comfortable */
+  ul li {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  nav {
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 0.85rem;
+    letter-spacing: 0.7px;
+  }
+
+  main {
+    margin: 18px auto;
+    padding: 18px;
+    border-radius: 6px;
+  }
+
+  header {
+    padding-bottom: 6px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 0.95rem;
+    margin-bottom: 18px;
+  }
+
+  p {
+    font-size: 0.98rem;
+  }
+
+  ul {
+    padding: 0;
+    margin-top: 12px;
+  }
+
+  ul li {
+    display: block;
+    padding: 14px 14px;
+  }
+}
+
+
