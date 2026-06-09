@@ -51,8 +51,8 @@ cloud-lab-group-project/
 | ------------------            | ---------------------------- |
 | Blessed Kelvin Asemanyi       | Project Coordination         |
 | Ebenezer Kwabena Oware        | GitHub Repository Management |
-| Member 1           | Website Design               |
-| Member 2           | Content Development          |
+|Yevu Evelyn           | Website Design               |
+| Clifford Edem Agbanyo          | Content Development          |
 | Member 3           | Testing and Documentation    |
 
 
